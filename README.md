@@ -4,3 +4,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 1: Installing Python & Environment Setup](lab-01-installing-python-and-environment-setup.md)
 - [Lab 2: Hello World & Basic Syntax](lab-02-hello-world-and-basic-syntax.md)
 - [Lab 3: Data Types & Variables](lab-03-data-types-and-variables.md)
+- [Lab 4: Arithmetic & Expressions](lab-04-arithmetic-and-expressions.md)
