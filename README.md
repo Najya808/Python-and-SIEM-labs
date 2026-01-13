@@ -8,3 +8,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 5: Understanding Conditionals(if, elif, else)](lab-05-understanding-conditionals.md)
 - [Lab 6: For & While Loops](lab-06-for-and-while-loops.md)
 - [Lab 7: Lists & List Methods](lab-07-lists-and-list-methods.md)
+- [Lab 8: Tuples & Sets](lab-08-tuples-and-sets.md)
