@@ -6,3 +6,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 3: Data Types & Variables](lab-03-data-types-and-variables.md)
 - [Lab 4: Arithmetic & Expressions](lab-04-arithmetic-and-expressions.md)
 - [Lab 5: Understanding Conditionals](if, elif, else) (lab-05-understanding-conditionals.md)
+- [Lab 6: For & While Loops](lab-06-for-and-while-loops.md)
