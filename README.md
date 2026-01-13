@@ -13,3 +13,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 10: Basic Functions](lab-10-basic-functions.md)
 - [Lab 11: Modules & Packages](lab-11-modules-packages.md)
 - [Lab 12: File I/O Basics](lab-12-file-io-basics.md)
+- [Lab 13: Handling Exceptions](lab-13-handling-exceptions.md)
