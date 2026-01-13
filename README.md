@@ -11,3 +11,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 8: Tuples & Sets](lab-08-tuples-and-sets.md)
 - [Lab 9: Dictionaries & Key Operations](lab-09-dictionaries-and-key-operations.md)
 - [Lab 10: Basic Functions](lab-10-basic-functions.md)
+- [Lab 11: Modules & Packages](lab-11-modules-packages.md)
