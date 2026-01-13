@@ -1,0 +1,118 @@
+Lab 9: Dictionaries & Key Operations
+ What I Learned
+
+In this lab, I learned how to use dictionaries in Python to store and manage data using key–value pairs. I practiced creating dictionaries, accessing and updating values, removing entries, and iterating through dictionary keys and items. This lab helped me understand how dictionaries are commonly used to represent real-world structured data such as user profiles and records.
+
+ Lab Objectives
+
+Understand the structure and purpose of dictionaries in Python
+
+Learn how to add, update, access, and remove dictionary entries
+
+Practice iterating over dictionary keys and values using built-in methods
+
+🧪 Lab Tasks Performed
+🔹 Task 1: Create a Dictionary for a User Profile
+
+Objective:
+Create a dictionary to store basic user information such as name, age, and city.
+
+user_profile = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
+
+print(user_profile)
+
+
+🔍 Explanation
+
+Dictionaries are enclosed in {}
+
+Data is stored in key: value pairs
+
+Each key must be unique
+
+🔹 Task 2: Access and Update Dictionary Values
+
+Objective:
+Access existing values and update dictionary data.
+
+print("User's Name:", user_profile["name"])
+
+user_profile["age"] = 31
+
+print("Updated User Profile:", user_profile)
+
+
+🔍 Explanation
+
+Square brackets [] are used to access dictionary values
+
+Dictionary values can be updated by assigning a new value to a key
+
+Dictionaries are mutable, meaning their contents can be changed
+
+🔹 Task 3: Remove a Key from the Dictionary
+
+Objective:
+Remove an entry from the dictionary using a built-in method.
+
+user_profile.pop("city")
+print("Profile after removing city:", user_profile)
+
+
+🔍 Explanation
+
+pop() removes the specified key and its value
+
+Helps clean or manage unnecessary data
+
+Prevents dictionary clutter
+
+🔹 Task 4: Iterate Over Dictionary Items and Keys
+
+Objective:
+Loop through dictionary contents using .items() and .keys().
+
+for key, value in user_profile.items():
+    print(f"{key}: {value}")
+
+for key in user_profile.keys():
+    print(f"Key: {key}")
+
+
+🔍 Explanation
+
+.items() returns key–value pairs
+
+.keys() returns only the keys
+
+Iteration is useful for displaying, validating, or processing data
+
+🧩 Key Concepts
+
+Dictionary: A mutable key–value data structure
+
+Keys: Unique identifiers for values
+
+Values: Data associated with keys
+
+.pop() method for removal
+
+.items() and .keys() for iteration
+
+Summary
+
+In this lab, I successfully:
+
+Created a dictionary to store structured user data
+
+Accessed and updated dictionary values
+
+Removed dictionary entries safely
+
+Iterated through keys and key–value pairs
+
+This lab strengthened my understanding of dictionaries, which are essential for working with configurations, JSON data, APIs, and database-like structures in Python.
