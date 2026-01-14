@@ -18,3 +18,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 15: Basic Debugging Techniques](lab-15-basic-debugging-techniques.md)
 - [Lab 17: OOP – Defining Classes](lab-17-oop-defining-classes.md)
 - [Lab 18: OOP – Inheritance Basics ](lab-18-oop-inheritance-basics.md)
+- [Lab 19: Basic Recursion Example ](lab-19-basic-recursion-example.md)
