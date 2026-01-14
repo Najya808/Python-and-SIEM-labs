@@ -20,3 +20,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 18: OOP – Inheritance Basics ](lab-18-oop-inheritance-basics.md)
 - [Lab 19: Basic Recursion Example ](lab-19-basic-recursion-example.md)
 - [Lab 20: Using Lambda & Higher-Order Functions](lab-20-lambda-higher-order-functions.md)
+- [Lab 21: List & Dictionary Comprehensions](lab-21-list-dict-comprehensions.md)
