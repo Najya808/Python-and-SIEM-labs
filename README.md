@@ -25,3 +25,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 22: Reading CSV Files](lab-22-reading-csv.md)
 - [Lab 23: Using Requests for HTTP Calls](lab-23-using-requests-http.md)
 - [Lab 24: Basic Regular Expressions](lab-24-basic-regular-expressions.md)
+- [Lab 26: Decorators: Basic Usage](lab-26-decorators-basic-usage.md)
