@@ -28,3 +28,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 26: Decorators: Basic Usage](lab-26-decorators-basic-usage.md)
 - [Lab 27: Context Managers (with statement)](lab-27-context-managers.md)
 - [Lab 28: Multithreading Basics](lab-28-multithreading-basics.md)
+- [Lab 29: Multiprocessing Basics](lab-29-multiprocessing-basics.md)
