@@ -1,0 +1,130 @@
+Lab 32: Logging with Python’s Logging Module
+Objectives
+
+Understand the importance of logging in software development.
+
+Learn to use Python's built-in logging module.
+
+Configure logging levels and message formats.
+
+Implement logging in a Python application to track different severity levels.
+
+Prerequisites
+
+Basic knowledge of Python programming.
+
+Python installed on your system.
+
+Familiarity with running Python scripts from the command line.
+
+Introduction
+
+Logging is a critical part of software development and maintenance. It allows developers to monitor application behavior, diagnose issues, and understand what happens during runtime. Python provides a built-in logging module that offers a flexible and powerful framework for generating log messages.
+
+In this lab, you will learn how to configure and use Python’s logging module to capture messages at different severity levels.
+
+Lab Tasks
+Task 1: Import the Logging Module
+import logging
+
+Explanation:
+The logging module is part of Python’s standard library and enables you to add logging capabilities to your application without installing external packages.
+
+Task 2: Set the Logging Level
+
+Logging levels help categorize log messages based on their severity.
+
+Code Example:
+
+logging.basicConfig(level=logging.DEBUG)
+
+Key Logging Levels:
+
+DEBUG – Detailed information, useful for diagnosing problems.
+
+INFO – Confirmation that things are working as expected.
+
+WARNING – Indicates something unexpected or a potential issue.
+
+ERROR – A serious problem that prevents part of the program from working.
+
+CRITICAL – A severe error that may stop the program entirely.
+
+Task 3: Format Log Messages
+
+Log formatting improves readability and consistency.
+
+Code Example:
+
+logging.basicConfig(
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+Format Fields Explained:
+
+%(asctime)s – Timestamp of the log message.
+
+%(levelname)s – Severity level of the log.
+
+%(message)s – The actual log message.
+
+Task 4: Log Messages at Different Levels
+
+Test logging by generating messages at different severity levels.
+
+Code Example:
+
+logging.debug("This is a debug message.")
+logging.info("This is an info message.")
+logging.warning("This is a warning message.")
+logging.error("This is an error message.")
+logging.critical("This is a critical message.")
+
+Explanation:
+Each function corresponds to a specific logging level and helps track different types of events in your application.
+
+Task 5: Practical Application of Logging
+
+Use logging inside a function to track execution and errors.
+
+Code Example:
+
+import logging
+
+
+logging.basicConfig(level=logging.INFO)
+
+
+def divide_numbers(a, b):
+    try:
+        result = a / b
+        logging.info("Division successful.")
+        return result
+    except ZeroDivisionError:
+        logging.error("Division by zero error.")
+        return None
+
+
+result = divide_numbers(10, 0)
+
+Explanation:
+
+Logs a success message when division works correctly.
+
+Logs an error message when attempting to divide by zero.
+
+Conclusion
+
+In this lab, you learned how to use Python’s logging module to monitor application behavior. By configuring logging levels and formats, you can effectively capture useful runtime information for debugging and system monitoring.
+
+Logging is an essential tool for building reliable and maintainable software, especially in production environments.
+
+Summary
+
+Python’s logging module provides structured and flexible logging.
+
+Different logging levels help categorize messages by severity.
+
+Proper logging makes debugging easier and applications more maintainable.
+
+By mastering logging basics, you are better equipped to develop robust and production-ready Python applications.
