@@ -30,3 +30,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 28: Multithreading Basics](lab-28-multithreading-basics.md)
 - [Lab 29: Multiprocessing Basics](lab-29-multiprocessing-basics.md)
 - [Lab 30: Basic SQLite Usage](lab-30-basic-sqlite-usage.md)
+- [Lab 31: CLI Applications with argparse](lab-31-cli-argparse.md)
