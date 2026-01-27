@@ -33,3 +33,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 31: CLI Applications with argparse](lab-31-cli-argparse.md)
 - [Lab 32: Logging with Python’s Logging Module](lab-32-logging-with-python-logging-module.md)
 - [Lab 33: Basic Web Scraping with Requests and BeautifulSoup](lab-33-basic-web-scraping.md)
+- [Lab34: Simple Scripting for File Management](lab-simple-scripting-file-management.md)
