@@ -1,0 +1,92 @@
+Lab 33: Basic Web Scraping with requests + BeautifulSoup
+Objectives
+
+Understand the basics of web scraping using requests and BeautifulSoup.
+
+Learn how to retrieve web pages and parse HTML content.
+
+Extract specific pieces of information from a webpage.
+
+Prerequisites
+
+Basic knowledge of Python programming.
+
+Python installed on your system.
+
+Familiarity with HTML basics will be beneficial.
+
+Lab Tasks
+Task 1: Setup Your Environment
+1.1 Install Required Python Packages
+
+To perform web scraping, install BeautifulSoup and requests using the following command:
+
+pip install beautifulsoup4 requests
+
+Note: Ensure your Python environment is active and has internet access.
+
+1.2 Verify the Installation
+pip show beautifulsoup4 requests
+
+Check the installed version numbers to verify successful installations.
+
+Task 2: Fetch a Webpage
+2.1 Use requests to Get a Webpage
+import requests
+
+
+# Send a GET request to the webpage
+response = requests.get("https://example.com")
+
+
+# Print the status code of the response
+print(response.status_code)
+
+A status code of 200 indicates that the request was successful.
+
+Task 3: Parse the HTML Content
+3.1 Parse with BeautifulSoup
+from bs4 import BeautifulSoup
+
+
+# Parse the HTML content
+soup = BeautifulSoup(response.text, 'html.parser')
+
+
+# Display the structured format of the parsed content
+print(soup.prettify())
+
+BeautifulSoup is used to parse and navigate HTML content. The html.parser is built-in and sufficient for basic scraping tasks.
+
+Task 4: Extract Specific Information
+4.1 Extract the Page Title
+# Extract and print the page title
+title = soup.title.string
+print("Page Title:", title)
+
+The page title provides a brief description of the webpage content.
+
+4.2 Extract All Hyperlinks (<a> tags)
+# Find all hyperlinks on the page
+links = soup.find_all('a')
+
+
+# Loop through each link and print the hyperlink reference
+for link in links:
+    print(link.get('href'))
+
+The get('href') method retrieves the URLs from anchor tags.
+
+Key Concepts
+
+HTTP Requests: Using requests to fetch web content.
+
+HTML Parsing: Utilizing BeautifulSoup to parse HTML documents.
+
+DOM Navigation: Extracting data by navigating HTML tags.
+
+Conclusion
+
+In this lab, you learned the basics of web scraping using Python’s requests and BeautifulSoup libraries. You practiced fetching a webpage, parsing HTML content, and extracting elements such as titles and hyperlinks. These foundational skills prepare you for more advanced web scraping tasks.
+
+Happy Scraping! 🕷️
