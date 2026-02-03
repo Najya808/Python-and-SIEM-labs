@@ -36,3 +36,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab34: Simple Scripting for File Management](lab-simple-scripting-file-management.md)
 - [Lab 35: Quick Data Visualization with matplotlib](lab-35-quick-data-visualization-matplotlib.md)
 - [Lab 36: Using Collections (deque, Counter)](lab-36-using-collections-deque-counter.md)
+- [Lab 37: BFS/DFS Implementation (Data Structures)](lab-37-bfs-dfs-implementation.md)
