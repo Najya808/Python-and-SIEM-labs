@@ -37,3 +37,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 35: Quick Data Visualization with matplotlib](lab-35-quick-data-visualization-matplotlib.md)
 - [Lab 36: Using Collections (deque, Counter)](lab-36-using-collections-deque-counter.md)
 - [Lab 37: BFS/DFS Implementation (Data Structures)](lab-37-bfs-dfs-implementation.md)
+- [Lab 38: Parameter Passing & Unpacking](lab-38-parameter-passing-unpacking.md)
