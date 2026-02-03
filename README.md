@@ -34,3 +34,4 @@ A collection of Python scripts and SIEM lab exercises demonstrating practical sk
 - [Lab 32: Logging with Python’s Logging Module](lab-32-logging-with-python-logging-module.md)
 - [Lab 33: Basic Web Scraping with Requests and BeautifulSoup](lab-33-basic-web-scraping.md)
 - [Lab34: Simple Scripting for File Management](lab-simple-scripting-file-management.md)
+- [Lab 35: Quick Data Visualization with matplotlib](lab-35-quick-data-visualization-matplotlib.md)
